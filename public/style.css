@@ -1,0 +1,15 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+span.answer {
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  font-size: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
