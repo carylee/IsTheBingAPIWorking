@@ -10,6 +10,6 @@ end
 
 def bing_results
   bing = RBing.new($BINGAPPID)
-  rsp = bing.web("site:chicagotribune.com budget", :count=>50)
+  rsp = bing.web("budget", :count=>50)
   rsp.web.total
 end
