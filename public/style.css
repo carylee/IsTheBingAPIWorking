@@ -6,10 +6,14 @@ html, body {
 span.answer {
 }
 
-.content {
-  height: 100%;
-  width: 100%;
-  font-size: 100px;
+.answer,.results {
   text-align: center;
   vertical-align: middle;
+}
+
+.answer {
+  width: 100%;
+  font-size: 100px;
+}
+.results {
 }

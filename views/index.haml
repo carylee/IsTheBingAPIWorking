@@ -4,4 +4,9 @@
     %title Is The Bing API Working?
     %link{:rel=>"stylesheet", :href=>"/style.css"}
   %body
-    .content= @answer
+    .answer= @answer
+    .results
+      The Bing API returned returned
+      %strong=@results
+      results for the term "budget."
+      %a{:href=>"http://www.bing.com/search?q=budget"} Compare to Bing.com
