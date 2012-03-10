@@ -4,7 +4,7 @@ $BINGAPPID = ENV['BINGAPPID']
 
 get '/' do
   @results = bing_results
-  @answer = @results > 1000 ? 'Yes' : 'No'
+  @answer = @results > 5000 ? 'Yes' : 'No'
   haml :index
 end
 
